@@ -2,11 +2,11 @@
 End-to-End Encrypted File Storage System
 
 To check the signup, the backend server must be running.
-Go to the Backend folder
-Activate the virtual environment
-Run this in the terminal: "python app.py"
-Open signup.html from the Frontend folder in a browser
-Fill the signup form and submit
+Go to the Backend folder.
+Activate the virtual environment.
+Run this in the terminal: "python app.py".
+Open signup.html from the Frontend folder in a browser.
+Fill the signup form and submit.
 
 
 
