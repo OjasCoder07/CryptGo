@@ -13,3 +13,10 @@ Fill the signup form and submit.
 Notes:
 You'll need to run the backend for the frontend to work, as it manages the database and user authentication. The project is currently a work in progress with just the core functionality implemented.
 The backend runs on: http://127.0.0.1:5000
+
+## Environment Variables Required
+
+EMAIL_USER = sender email for OTP
+EMAIL_PASS = app password for email
+DB_PASSWORD = PostgreSQL password
+
