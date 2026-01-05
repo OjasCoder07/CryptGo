@@ -91,6 +91,5 @@ A sample file `.env.example` is provided for reference.
 - The repository was initially submitted for mid-evaluation and later updated for final submission
 - The project is currently a work in progress with core functionality implemented
 - OTP and encryption features demonstrate conceptual understanding
--This project is built for educational purposes only.
-Some features are partial and intended to demonstrate learning
+- Some features are partial and intended to demonstrate learning
 of authentication and security concepts.
