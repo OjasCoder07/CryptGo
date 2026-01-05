@@ -63,12 +63,20 @@ http://127.0.0.1:5000
 ---
 
 ### Frontend Setup
-1. Open the `Frontend` folder  
-2. Open `signup.html` in a browser  
-3. Fill the signup form and submit  
+1. Open a terminal in the Frontend folder
+2. Start a local server using Python:
+python -m http.server 5500
+
+3. Open a browser and go to:
+http://127.0.0.1:5500/Cryptgo1.html
 
 ⚠️ The frontend will not work unless the backend server is running.
 
+---
+## Running Order
+1. Start the backend server (`python app.py`)
+2. Start the frontend local server (`python -m http.server 5500`)
+3. Access the frontend through the browser using the local server URL
 ---
 
 ## Environment Variables
