@@ -1,52 +1,58 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<meta charset="utf-8">
-<title>CryptGo - Secure File Storage</title>
-<link rel="stylesheet" href="Cryptgo1.css">
+    <meta charset="utf-8">
+    <title>CryptGo - Secure File Storage</title>
+    <link rel="stylesheet" href="Cryptgo1.css">
 </head>
 
 <body>
 
-<h1>CryptGo</h1>
-<p><strong>End-to-End Encrypted File Storage Platform</strong></p>
+<nav>
+    <a href="#" class="logo">CryptGo</a>
+    <div class="nav-links">
+        <a href="login.html">Login</a>
+        <a href="signup.html" class="btn-primary">Get Started</a>
+    </div>
+</nav>
 
-<hr>
+<section class="hero">
+    <h1>Your files, truly private.</h1>
+    <p>End-to-end encrypted storage that ensures your data never leaves your device unencrypted.</p>
+    <div class="cta">
+        <a href="signup.html" style="text-decoration:none">
+            <button style="padding: 15px 30px; font-size: 1.1rem; cursor:pointer;" class="btn-primary">Start Securing Files</button>
+        </a>
+    </div>
+</section>
 
-<p>
-<a href="C:/Users/Ojas/Desktop/CRYPTGO/Frontend/signup.html">Sign Up</a> |
-<a href="#">Login</a> |
-<a href="#">Contact</a>
-</p>
+<section class="features">
+    <div class="feature-card">
+        <h3>Client-Side First</h3>
+        <p>Encryption happens in your browser. We never see your password or your original files.</p>
+    </div>
+    <div class="feature-card">
+        <h3>Zero-Knowledge</h3>
+        <p>Our servers only store encrypted blobs. Even if our database is compromised, your data remains safe.</p>
+    </div>
+    <div class="feature-card">
+        <h3>Secure Auth</h3>
+        <p>Multi-factor authentication (OTP) and bcrypt hashing protect your account access.</p>
+    </div>
+</section>
 
-<hr>
+<section style="padding: 80px 10%; text-align: center;">
+    <h2>How it works</h2>
+    <p style="max-width: 700px; margin: 0 auto;">
+        When you upload a file, CryptGo generates a unique key from your password using PBKDF2. 
+        The file is encrypted using AES-GCM and then sent to our vault. To decrypt, the process happens 
+        entirely on your machine.
+    </p>
+</section>
 
-<h2>What is CryptGo?</h2>
-<p>
-CryptGo is a secure file storage platform where your files are encrypted
-before they leave your device. Only you can access your data.
-</p>
-
-<h2>Why CryptGo?</h2>
-<ul>
-<li>Client-side file encryption</li>
-<li>Zero-knowledge storage model</li>
-<li>Secure authentication system</li>
-<li>Planned support for file sharing</li>
-</ul>
-
-<h2>How it works</h2>
-<p>
-Files are encrypted in the browser using cryptographic algorithms.
-The server only stores encrypted data and never sees the original file.
-</p>
-
-<hr>
-
-<p>
-© 2025 CryptGo <br>
-Built as an InfoSec project
-</p>
+<footer>
+    <p>© 2025 CryptGo | Built as an InfoSec Cyberlabs Project</p>
+</footer>
 
 </body>
 </html>

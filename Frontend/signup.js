@@ -1,13 +1,13 @@
 console.log("signup.js loaded")
 
-const form = document.getElementById("form")
+const form = document.getElementById("signupForm")
 
 form.addEventListener("submit", function(event) {
 
-event.preventDefault()
+event.preventDefault();
 
-const email = document.getElementById("email").value
-const password = document.getElementById("password").value
+const email = document.getElementById("email").value;
+const password = document.getElementById("password").value;
 
 fetch("http://127.0.0.1:5000/signup", {
 method: "POST",
@@ -23,11 +23,11 @@ password: password
 .then(data => {
 
 document.getElementById("message").innerText =
-data.message || data.error
+data.message || data.error;
 
 })
 .catch(error => {
-document.getElementById("message").innerText = "Something went wrong"
+document.getElementById("message").innerText = "Something went wrong";
 })
 
 })

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - CryptGo</title>
+    <link rel="stylesheet" href="dashboard.css">
+</head>
+<body>
+
+<div class="container">
+<header>
+    <h1>CryptGo Vault</h1>
+    <a href="admin.html" id="adminLink" class="admin-link" style="display: none;">Admin Logs</a>
+    <button id="logout">Logout</button>
+</header>
+
+<div class="card">
+    <h2>Upload New File</h2>
+    
+    <div style="margin-bottom: 15px;">
+        <input type="file" id="file">
+    </div>
+    
+    <div style="margin-bottom: 15px;">
+        <input type="password" id="encPassword" placeholder="Set Decryption Password">
+        <label class="password-toggle-container">
+            <input type="checkbox" id="togglePassword"> 
+            <span>Show Password</span>
+        </label>
+    </div>
+
+    <button id="uploadBtn">Secure Upload</button>
+</div>
+
+    <div class="card">
+        <h2>Your Secured Files</h2>
+        <ul id="fileList"></ul>
+    </div>
+</div>
+
+<script src="dashboard.js"></script>
+</body>
+</html>
